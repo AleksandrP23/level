@@ -1,0 +1,50 @@
+.slider {
+  padding-top: 90px;
+  padding-bottom: 120px;
+  background: linear-gradient(1deg, #d8d8d8 0%, #3032ff 60%);
+
+  &__list {
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+
+    .slick-track {
+      display: flex !important;
+    }
+  }
+
+  &__item {
+    padding: 20px;
+    height: auto;
+    flex: 0 0 auto;
+    text-align: justify;
+  }
+
+  &__img {
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+  }
+
+  &__name {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+  }
+
+  &__text {
+    font-size: 16px;
+    color: #fff;
+  }
+}
+
+@media (max-width: 768px) {
+  .form__list {
+    flex-wrap: wrap;
+  }
+
+  .form__left {
+    margin-bottom: 20px;
+  }
+}
